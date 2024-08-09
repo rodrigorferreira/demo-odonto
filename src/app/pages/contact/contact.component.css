@@ -1,0 +1,68 @@
+/* Contact Container */
+.contact-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.form-group label {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: #555;
+}
+
+.form-group i {
+  margin-right: 8px;
+  color: #007bff;
+}
+
+.form-control {
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+/* Ajusta o espaçamento do conteúdo principal */
+.main-content {
+  padding-top: 40px; /* Adiciona espaço acima do conteúdo para não ficar colado ao menu */
+  padding-bottom: 20px; /* Adiciona espaço abaixo do conteúdo para não ficar colado ao footer */
+  min-height: calc(100vh - 120px - 40px); /* Garante que o conteúdo ocupe o espaço suficiente para empurrar o footer para baixo */
+}

@@ -1,0 +1,43 @@
+/* Garante que o footer fique no fundo da tela */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.footer {
+  background-color: #f8f9fa; /* Cor de fundo do footer */
+  padding: 20px 0; /* Padding para o footer */
+  border-top: 1px solid #e0e0e0; /* Linha superior para o footer */
+  margin-top: auto; /* Move o footer para baixo */
+  position: relative; /* Para a posição dos ícones sociais */
+}
+
+.footer p {
+  margin: 0;
+  color: #333; /* Cor do texto */
+}
+
+.social-icons {
+  margin-top: 10px; /* Espaço acima dos ícones sociais */
+}
+
+.social-icons a {
+  color: #333; /* Cor do ícone */
+  text-decoration: none; /* Remove o sublinhado */
+  transition: color 0.3s ease, transform 0.3s ease; /* Transição suave para a cor e o tamanho */
+  margin: 0 10px; /* Espaçamento entre os ícones */
+}
+
+.social-icons a:hover {
+  color: #e1306c; /* Cor do ícone ao passar o mouse */
+  transform: scale(1.2); /* Aumenta o tamanho do ícone ao passar o mouse */
+}

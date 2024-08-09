@@ -1,0 +1,29 @@
+/* Hero Section */
+.hero-section {
+  background-color: #007bff;
+  padding: 60px 0;
+}
+.hero-section .img-fluid {
+  border-radius: 0.5rem;
+}
+
+/* Services Section */
+.services-section .card {
+  border: none;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.services-section .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* About Section */
+.about-section img {
+  border-radius: 0.5rem;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #f8f9fa;
+}

@@ -1,0 +1,14 @@
+/* Hero Section */
+.hero-section {
+  background-color: #007bff;
+  padding: 65px 0;
+}
+.hero-section .img-fluid {
+  border-radius: 0.5rem;
+}
+
+.btn mat-icon {
+  margin-right: 8px; /* Espaço entre o ícone e o texto */
+  font-size: 1.5rem; /* Tamanho do ícone */
+}
+

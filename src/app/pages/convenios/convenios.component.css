@@ -1,0 +1,30 @@
+/* consultorio-dental\src\app\pages\convenios\convenios.component.css */
+
+
+
+/* Estilo para os cards */
+.convenio-card {
+  background-color: #007bff; /* Cor azul do fundo dos cards */
+  color: #fff; /* Cor branca para o texto */
+  border: none; /* Remove a borda padrão do card */
+  transition: transform 0.3s ease-in-out; /* Transição suave para o efeito de hover */
+}
+
+.convenio-card .card-body {
+  text-align: center; /* Centraliza o texto dentro do card */
+  font-size: 1.25rem; /* Tamanho da fonte */
+  padding: 20px; /* Padding interno do card */
+}
+
+/* Efeito de hover para os cards */
+.convenio-card:hover {
+  transform: translateY(-10px); /* Move o card para cima ao passar o mouse */
+}
+
+/* Ajusta o espaçamento do conteúdo principal */
+.main-content {
+  padding-top: 40px; /* Adiciona espaço acima do conteúdo para não ficar colado ao menu */
+  padding-bottom: 20px; /* Adiciona espaço abaixo do conteúdo para não ficar colado ao footer */
+  min-height: calc(100vh - 120px - 40px); /* Garante que o conteúdo ocupe o espaço suficiente para empurrar o footer para baixo */
+}
+
